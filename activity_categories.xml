@@ -21,16 +21,17 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:scaleType="fitXY"
             android:cropToPadding="false"
             android:src="@drawable/food"
-            tools:srcCompat="@drawable/food"
-            />
+            tools:srcCompat="@drawable/food" />
 
         <ImageButton
             android:id="@+id/imageButton11"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
             android:layout_weight="1"
             tools:srcCompat="@drawable/household" />
     </LinearLayout>
@@ -47,6 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:scaleType="fitXY"
             tools:srcCompat="@drawable/hygiene" />
 
         <ImageButton
@@ -54,6 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:scaleType="fitXY"
             tools:srcCompat="@drawable/other" />
     </LinearLayout>
 
