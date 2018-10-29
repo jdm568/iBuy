@@ -16,24 +16,29 @@
         android:orientation="horizontal"
         android:weightSum="2">
 
-        <ImageButton
-            android:id="@+id/imageButton12"
+        <Button
+            android:id="@+id/foodButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:scaleType="fitXY"
+            android:background="@drawable/food"
             android:cropToPadding="false"
-            android:src="@drawable/food"
-            tools:srcCompat="@drawable/food" />
+            android:scaleType="fitXY"
+            android:text="FOOD"
+            android:textColor="#FFFFFF"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
-        <ImageButton
-            android:id="@+id/imageButton11"
+        <Button
+            android:id="@+id/houseHoldButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:scaleType="fitXY"
             android:layout_weight="1"
-            tools:srcCompat="@drawable/household" />
+            android:background="@drawable/household"
+            android:scaleType="fitXY"
+            android:text="HOUSEHOLD"
+            android:textColor="#FFFFFF"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
     </LinearLayout>
 
     <LinearLayout
@@ -43,21 +48,26 @@
         android:orientation="horizontal"
         android:weightSum="2">
 
-        <ImageButton
-            android:id="@+id/imageButton14"
+        <Button
+            android:id="@+id/hygieneButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="fitXY"
-            tools:srcCompat="@drawable/hygiene" />
+            android:background="@drawable/hygiene"
+            android:text="HYGIENE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
-        <ImageButton
+        <Button
             android:id="@+id/imageButton13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="fitXY"
-            tools:srcCompat="@drawable/other" />
+            android:background="@drawable/other"
+            android:text="OTHER"
+            android:textColor="#FFFFFF"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
     </LinearLayout>
 
 
