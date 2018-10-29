@@ -16,13 +16,46 @@
         android:id="@+id/item1"
         android:layout_width="141dp"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/task_complete"
+        android:layout_alignTop="@+id/task_complete1"
         android:layout_alignParentStart="true"
         android:text="Item1"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
+    <TextView
+        android:id="@+id/item2"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="111dp"
+        android:text="Item2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/item3"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="160dp"
+        android:text="Item3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/item34"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="207dp"
+        android:text="Item4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
     <Button
-        android:id="@+id/task_complete"
+        android:id="@+id/task_complete1"
         android:layout_width="75dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -34,7 +67,43 @@
         android:text="@string/check_mark_string" />
 
     <Button
-        android:id="@+id/task_remove"
+        android:id="@+id/task_complete2"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="@string/check_mark_string" />
+
+    <Button
+        android:id="@+id/task_complete3"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="@string/check_mark_string" />
+
+    <Button
+        android:id="@+id/task_complete4"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="@string/check_mark_string" />
+
+    <Button
+        android:id="@+id/task_remove1"
         android:layout_width="76dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -43,6 +112,42 @@
         android:layout_marginTop="65dp"
         android:layout_marginEnd="79dp"
         android:layout_marginRight="79dp"
+        android:text="@string/cancel_string" />
+
+    <Button
+        android:id="@+id/task_remove"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:text="@string/cancel_string" />
+
+    <Button
+        android:id="@+id/task_remove2"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
+        android:text="@string/cancel_string" />
+
+    <Button
+        android:id="@+id/task_remove3"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
         android:text="@string/cancel_string" />
 
 </RelativeLayout>
