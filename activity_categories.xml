@@ -21,7 +21,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars[13]" />
+            android:cropToPadding="false"
+            android:src="@drawable/food"
+            tools:srcCompat="@drawable/food"
+            />
 
         <ImageButton
             android:id="@+id/imageButton11"
@@ -29,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars[4]" />
+            tools:srcCompat="@drawable/household" />
     </LinearLayout>
 
     <LinearLayout
@@ -41,17 +44,17 @@
 
         <ImageButton
             android:id="@+id/imageButton14"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars[11]" />
+            tools:srcCompat="@drawable/hygiene" />
 
         <ImageButton
             android:id="@+id/imageButton13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars[3]" />
+            tools:srcCompat="@drawable/other" />
     </LinearLayout>
 
 
