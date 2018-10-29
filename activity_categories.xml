@@ -59,15 +59,15 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
         <Button
-            android:id="@+id/imageButton13"
+            android:id="@+id/otherButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:scaleType="fitXY"
             android:background="@drawable/other"
+            android:scaleType="fitXY"
             android:text="OTHER"
-            android:textColor="#FFFFFF"
-            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 
