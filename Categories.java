@@ -53,7 +53,7 @@ public class Categories extends AppCompatActivity {
     }
 
     public void openShoppingBag() {
-        Intent intent = new Intent(this, ShoppingBag.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
