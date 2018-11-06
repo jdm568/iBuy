@@ -25,35 +25,35 @@ public class Categories extends AppCompatActivity {
         food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openShoppingBag();
+                goToList();
             }
         });
 
         household.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openShoppingBag();
+                goToList();
             }
         });
 
         hygiene.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openShoppingBag();
+                goToList();
             }
         });
 
         other.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openShoppingBag();
+                goToList();
             }
         });
 
     }
 
-    public void openShoppingBag() {
-        Intent intent = new Intent(this, MainActivity.class);
+    public void goToList() {
+        Intent intent = new Intent(this, ListOfFood.class);
         startActivity(intent);
     }
 }
