@@ -19,14 +19,15 @@ public class LogIn extends AppCompatActivity {
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openCategoriesPage();
+                openShoppingBag();
 
             }
         });
 
     }
-    public void openCategoriesPage() {
-        Intent intent = new Intent(this, Categories.class);
+
+    public void openShoppingBag() {
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
