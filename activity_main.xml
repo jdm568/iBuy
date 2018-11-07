@@ -24,7 +24,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginStart="11dp"
         android:layout_marginLeft="11dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="3dp"
         android:text="Item1"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -37,7 +37,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="24dp"
         android:text="Item2"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -50,7 +50,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="24dp"
         android:text="Item3"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -63,7 +63,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="26dp"
         android:text="Item4"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -76,11 +76,11 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="42dp"
-        android:layout_marginLeft="42dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="3dp"
         android:text="ADD ITEM +"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -91,7 +91,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="123dp"
+        android:layout_marginTop="152dp"
         android:layout_marginEnd="11dp"
         android:layout_marginRight="11dp"
         android:text="@string/check_mark_string" />
@@ -103,7 +103,7 @@
         android:layout_below="@+id/task_complete1"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="-4dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:text="@string/check_mark_string" />
@@ -115,9 +115,9 @@
         android:layout_below="@+id/task_complete2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
         android:text="@string/check_mark_string" />
 
     <Button
@@ -127,9 +127,9 @@
         android:layout_below="@+id/task_complete3"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="-2dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
         android:text="@string/check_mark_string" />
 
     <Button
@@ -139,9 +139,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="125dp"
-        android:layout_marginEnd="94dp"
-        android:layout_marginRight="94dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
         android:text="@string/cancel_string" />
 
     <Button
@@ -151,9 +151,9 @@
         android:layout_below="@+id/task_remove1"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="-3dp"
-        android:layout_marginEnd="95dp"
-        android:layout_marginRight="95dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
         android:text="@string/cancel_string" />
 
     <Button
@@ -163,7 +163,7 @@
         android:layout_below="@+id/task_remove"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="-3dp"
+        android:layout_marginTop="23dp"
         android:layout_marginEnd="95dp"
         android:layout_marginRight="95dp"
         android:text="@string/cancel_string" />
@@ -175,10 +175,20 @@
         android:layout_below="@+id/task_remove2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="-1dp"
-        android:layout_marginEnd="95dp"
-        android:layout_marginRight="95dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
         android:text="@string/cancel_string" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 
     <Button
         android:id="@+id/account"
