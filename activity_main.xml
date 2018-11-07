@@ -9,19 +9,22 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Shopping Cart"
+        android:layout_alignParentTop="true"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="57dp"
+        android:text="My Shopping Cart"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
     <TextView
         android:id="@+id/item1"
-        android:layout_width="141dp"
+        android:layout_width="142dp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/task_complete1"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="1dp"
         android:text="Item1"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -29,12 +32,12 @@
         android:id="@+id/item2"
         android:layout_width="142dp"
         android:layout_height="50dp"
+        android:layout_below="@+id/item1"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="111dp"
+        android:layout_marginTop="0dp"
         android:text="Item2"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -42,12 +45,12 @@
         android:id="@+id/item3"
         android:layout_width="142dp"
         android:layout_height="50dp"
+        android:layout_below="@+id/item2"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="0dp"
         android:text="Item3"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -55,12 +58,12 @@
         android:id="@+id/item34"
         android:layout_width="142dp"
         android:layout_height="50dp"
+        android:layout_below="@+id/item3"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="207dp"
+        android:layout_marginTop="0dp"
         android:text="Item4"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -78,7 +81,8 @@
         android:layout_marginEnd="42dp"
         android:layout_marginRight="42dp"
         android:layout_marginBottom="100dp"
-        android:text="ADD ITEM +" />
+        android:text="ADD ITEM +"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
         android:id="@+id/task_complete1"
@@ -87,19 +91,19 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="65dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
         android:text="@string/check_mark_string" />
 
     <Button
         android:id="@+id/task_complete2"
         android:layout_width="75dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/task_complete1"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="109dp"
+        android:layout_marginTop="-4dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:text="@string/check_mark_string" />
@@ -108,10 +112,10 @@
         android:id="@+id/task_complete3"
         android:layout_width="75dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/task_complete2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="157dp"
+        android:layout_marginTop="0dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:text="@string/check_mark_string" />
@@ -120,10 +124,10 @@
         android:id="@+id/task_complete4"
         android:layout_width="75dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/task_complete3"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="203dp"
+        android:layout_marginTop="-2dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:text="@string/check_mark_string" />
@@ -135,19 +139,19 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="65dp"
-        android:layout_marginEnd="95dp"
-        android:layout_marginRight="95dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
         android:text="@string/cancel_string" />
 
     <Button
         android:id="@+id/task_remove"
         android:layout_width="76dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/task_remove1"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="-3dp"
         android:layout_marginEnd="95dp"
         android:layout_marginRight="95dp"
         android:text="@string/cancel_string" />
@@ -156,10 +160,10 @@
         android:id="@+id/task_remove2"
         android:layout_width="76dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/task_remove"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="-3dp"
         android:layout_marginEnd="95dp"
         android:layout_marginRight="95dp"
         android:text="@string/cancel_string" />
@@ -168,12 +172,34 @@
         android:id="@+id/task_remove3"
         android:layout_width="76dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/task_remove2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="203dp"
+        android:layout_marginTop="-1dp"
         android:layout_marginEnd="95dp"
         android:layout_marginRight="95dp"
         android:text="@string/cancel_string" />
+
+    <Button
+        android:id="@+id/account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/task_complete1"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Account" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="39dp"
+        android:layout_height="52dp"
+        android:layout_alignTop="@+id/account"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        app:srcCompat="@mipmap/ic_launcher" />
 
 </RelativeLayout>

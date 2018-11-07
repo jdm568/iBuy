@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button addItem;
+    private Button account;
 
 
     @Override
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         addItem = (Button) findViewById(R.id.addItem);
+        account = (Button) findViewById(R.id.account);
 
         addItem.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,11 +25,22 @@ public class MainActivity extends AppCompatActivity {
                 openCategoriesPage();
             }
         });
+        account.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAccountPreferences();
+            }
+        });
 
     }
 
     public void openCategoriesPage() {
         Intent intent = new Intent(this, Categories.class);
+        startActivity(intent);
+    }
+
+    public void openAccountPreferences() {
+        Intent intent = new Intent(this, AccountPreferences.class);
         startActivity(intent);
     }
 }
